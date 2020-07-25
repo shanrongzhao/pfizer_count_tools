@@ -1,0 +1,13 @@
+{
+  "index.create_indexes.output_directory": "gs://fc-secure-c3bcd839-0bda-4777-af09-d609d99aaf16/Reference/GRCh38/",
+  "index.create_indexes.genome_file": "gs://fc-secure-c3bcd839-0bda-4777-af09-d609d99aaf16/Reference/GRCh38/genome.fa",
+  "index.create_indexes.gtf_file": "gs://fc-secure-c3bcd839-0bda-4777-af09-d609d99aaf16/Reference/GRCh38/genes.gtf",
+  "index.create_indexes.docker": "quay.io/shanrongzhao/pfizer_count_tools",
+  "index.create_indexes.zones": "us-central1-a us-central1-b us-central1-c us-central1-f",
+  "index.create_indexes.preemptible": "2",
+  "index.create_indexes.cpu": "24",
+  "index.create_indexes.memory": "120",
+  "index.create_indexes.disk_space": "300"
+}
+
+
