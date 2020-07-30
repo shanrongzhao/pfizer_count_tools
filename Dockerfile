@@ -56,6 +56,9 @@ RUN chmod a+rx /software/monitor_script.sh
 COPY t2g.py /software
 RUN chmod a+rx /software/t2g.py
 
+COPY get-star-summary.pl /software
+RUN chmod a+rx /software/get-star-summary.pl
+
 ENV PATH=/software:/software/bioawk:/software/gffread:/software/salmon/bin:/software/STAR/bin/Linux_x86_64:$PATH
 
 
